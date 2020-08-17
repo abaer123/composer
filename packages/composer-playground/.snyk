@@ -1,0 +1,78 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.19.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - composer-playground-api > composer-connector-server > composer-connector-embedded > composer-runtime-embedded > composer-runtime-pouchdb > pouchdb-core > pouchdb-debug > debug:
+        patched: '2020-08-16T21:36:56.616Z'
+    - composer-playground-api > socket.io > debug:
+        patched: '2020-08-16T21:36:56.616Z'
+    - composer-playground-api > socket.io > engine.io > debug:
+        patched: '2020-08-16T21:36:56.616Z'
+    - composer-playground-api > socket.io > socket.io-adapter > debug:
+        patched: '2020-08-16T21:36:56.616Z'
+    - composer-playground-api > socket.io > socket.io-client > debug:
+        patched: '2020-08-16T21:36:56.616Z'
+    - composer-playground-api > composer-connector-server > socket.io > debug:
+        patched: '2020-08-16T21:36:56.616Z'
+    - composer-playground-api > composer-connector-server > socket.io > engine.io > debug:
+        patched: '2020-08-16T21:36:56.616Z'
+    - composer-playground-api > composer-connector-server > socket.io > socket.io-adapter > debug:
+        patched: '2020-08-16T21:36:56.616Z'
+    - composer-playground-api > socket.io > socket.io-client > engine.io-client > debug:
+        patched: '2020-08-16T21:36:56.616Z'
+    - composer-playground-api > composer-connector-server > socket.io > socket.io-client > debug:
+        patched: '2020-08-16T21:36:56.616Z'
+    - composer-playground-api > composer-connector-server > socket.io > socket.io-client > engine.io-client > debug:
+        patched: '2020-08-16T21:36:56.616Z'
+    - composer-playground-api > socket.io > socket.io-parser > debug:
+        patched: '2020-08-16T21:36:56.616Z'
+    - composer-playground-api > socket.io > socket.io-adapter > socket.io-parser > debug:
+        patched: '2020-08-16T21:36:56.616Z'
+    - composer-playground-api > socket.io > socket.io-client > socket.io-parser > debug:
+        patched: '2020-08-16T21:36:56.616Z'
+    - composer-playground-api > composer-connector-server > socket.io > socket.io-parser > debug:
+        patched: '2020-08-16T21:36:56.616Z'
+    - composer-playground-api > composer-connector-server > socket.io > socket.io-adapter > socket.io-parser > debug:
+        patched: '2020-08-16T21:36:56.616Z'
+    - composer-playground-api > composer-connector-server > socket.io > socket.io-client > socket.io-parser > debug:
+        patched: '2020-08-16T21:36:56.616Z'
+  'npm:lodash:20180130':
+    - composer-playground-api > composer-connector-server > composer-connector-hlf > hfc > grpc > lodash:
+        patched: '2020-08-16T21:36:56.616Z'
+  'npm:ms:20170412':
+    - composer-playground-api > socket.io > debug > ms:
+        patched: '2020-08-16T21:36:56.616Z'
+    - composer-playground-api > socket.io > engine.io > debug > ms:
+        patched: '2020-08-16T21:36:56.616Z'
+    - composer-playground-api > socket.io > socket.io-adapter > debug > ms:
+        patched: '2020-08-16T21:36:56.616Z'
+    - composer-playground-api > socket.io > socket.io-client > debug > ms:
+        patched: '2020-08-16T21:36:56.616Z'
+    - composer-playground-api > composer-connector-server > socket.io > debug > ms:
+        patched: '2020-08-16T21:36:56.616Z'
+    - composer-playground-api > composer-connector-server > socket.io > engine.io > debug > ms:
+        patched: '2020-08-16T21:36:56.616Z'
+    - composer-playground-api > composer-connector-server > socket.io > socket.io-adapter > debug > ms:
+        patched: '2020-08-16T21:36:56.616Z'
+    - composer-playground-api > socket.io > socket.io-client > engine.io-client > debug > ms:
+        patched: '2020-08-16T21:36:56.616Z'
+    - composer-playground-api > composer-connector-server > socket.io > socket.io-client > debug > ms:
+        patched: '2020-08-16T21:36:56.616Z'
+    - composer-playground-api > composer-connector-server > socket.io > socket.io-client > engine.io-client > debug > ms:
+        patched: '2020-08-16T21:36:56.616Z'
+    - composer-playground-api > composer-connector-server > composer-connector-embedded > composer-runtime-embedded > composer-runtime-pouchdb > pouchdb-core > pouchdb-debug > debug > ms:
+        patched: '2020-08-16T21:36:56.616Z'
+    - composer-playground-api > socket.io > socket.io-parser > debug > ms:
+        patched: '2020-08-16T21:36:56.616Z'
+    - composer-playground-api > socket.io > socket.io-adapter > socket.io-parser > debug > ms:
+        patched: '2020-08-16T21:36:56.616Z'
+    - composer-playground-api > socket.io > socket.io-client > socket.io-parser > debug > ms:
+        patched: '2020-08-16T21:36:56.616Z'
+    - composer-playground-api > composer-connector-server > socket.io > socket.io-parser > debug > ms:
+        patched: '2020-08-16T21:36:56.616Z'
+    - composer-playground-api > composer-connector-server > socket.io > socket.io-adapter > socket.io-parser > debug > ms:
+        patched: '2020-08-16T21:36:56.616Z'
+    - composer-playground-api > composer-connector-server > socket.io > socket.io-client > socket.io-parser > debug > ms:
+        patched: '2020-08-16T21:36:56.616Z'
